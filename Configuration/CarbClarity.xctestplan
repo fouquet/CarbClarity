@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "9484B57F-34A1-48EF-9312-003EC599BF49",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "region" : "US",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CarbClarity.xcodeproj",
+      "identifier" : "1192CE6F2C12D6F200248D94",
+      "name" : "CarbClarity"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CarbClarity.xcodeproj",
+        "identifier" : "1192CE812C12D6F400248D94",
+        "name" : "CarbClarityTests"
+      }
+    }
+  ],
+  "version" : 1
+}

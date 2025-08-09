@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "FE72108A-D382-4627-A023-0B4DE2509E62",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "language" : "en",
+    "region" : "US",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CarbClarity.xcodeproj",
+      "identifier" : "119176DD2E2AF52800D871DE",
+      "name" : "CarbClarity Watch App"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CarbClarity.xcodeproj",
+        "identifier" : "119176E92E2AF52900D871DE",
+        "name" : "CarbClarity Watch AppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

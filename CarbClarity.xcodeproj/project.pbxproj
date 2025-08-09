@@ -1,0 +1,1433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1161ED7C2E28D9EC00795EDE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1161ED7B2E28D9EC00795EDE /* Charts.framework */; };
+		1161ED7D2E28D9FC00795EDE /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1161ED7B2E28D9EC00795EDE /* Charts.framework */; };
+		1180838E2E2C42B400C36B1D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1192CEA92C14A76800248D94 /* WidgetKit.framework */; };
+		1180838F2E2C42B400C36B1D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1192CEAB2C14A76800248D94 /* SwiftUI.framework */; };
+		118083982E2C42B500C36B1D /* CarbClarityWatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1180838D2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		118083AD2E2D160800C36B1D /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118083AC2E2D160800C36B1D /* WatchConnectivity.framework */; };
+		118083AF2E2D160E00C36B1D /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118083AE2E2D160E00C36B1D /* WatchConnectivity.framework */; };
+		119176FE2E2AF52900D871DE /* CarbClarity Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 119176DE2E2AF52800D871DE /* CarbClarity Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1191772B2E2AF77000D871DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1191772A2E2AF77000D871DE /* XCTest.framework */; };
+		1192CEAA2C14A76800248D94 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1192CEA92C14A76800248D94 /* WidgetKit.framework */; };
+		1192CEAC2C14A76800248D94 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1192CEAB2C14A76800248D94 /* SwiftUI.framework */; };
+		1192CEB72C14A76900248D94 /* CarbClarityWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1192CEA72C14A76800248D94 /* CarbClarityWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1193EEF82E2A167D00FEFCD7 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1193EEF72E2A167D00FEFCD7 /* AppIntents.framework */; };
+		1193EEF92E2A168200FEFCD7 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1193EEF72E2A167D00FEFCD7 /* AppIntents.framework */; };
+		11B4B0452E2682AE002FCA9F /* CarbClarityWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1192CEA72C14A76800248D94 /* CarbClarityWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118083962E2C42B500C36B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1192CE682C12D6F200248D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1180838C2E2C42B400C36B1D;
+			remoteInfo = CarbClarityWatchWidgetExtension;
+		};
+		119176EB2E2AF52900D871DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1192CE682C12D6F200248D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119176DD2E2AF52800D871DE;
+			remoteInfo = "CarbClarityWatch Watch App";
+		};
+		119176FC2E2AF52900D871DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1192CE682C12D6F200248D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119176DD2E2AF52800D871DE;
+			remoteInfo = "CarbClarityWatch Watch App";
+		};
+		1192CE832C12D6F400248D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1192CE682C12D6F200248D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1192CE6F2C12D6F200248D94;
+			remoteInfo = CarbClarity;
+		};
+		1192CEB52C14A76900248D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1192CE682C12D6F200248D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1192CEA62C14A76800248D94;
+			remoteInfo = CarbClarityWidgetExtension;
+		};
+		11B4B02C2E2682AE002FCA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1192CE682C12D6F200248D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1192CEA62C14A76800248D94;
+			remoteInfo = CarbClarityWidgetExtension;
+		};
+		11B4B04F2E268D35002FCA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1192CE682C12D6F200248D94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B4B02A2E2682AE002FCA9F;
+			remoteInfo = CarbClarityUITestRunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1180824D2E2C3BF900C36B1D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				118083982E2C42B500C36B1D /* CarbClarityWatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119177022E2AF52900D871DE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				119176FE2E2AF52900D871DE /* CarbClarity Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CEBB2C14A76900248D94 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1192CEB72C14A76900248D94 /* CarbClarityWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B4B0442E2682AE002FCA9F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				11B4B0452E2682AE002FCA9F /* CarbClarityWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1161ED7B2E28D9EC00795EDE /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		1180838D2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CarbClarityWatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		118083AC2E2D160800C36B1D /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		118083AE2E2D160E00C36B1D /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		118083B02E2D173C00C36B1D /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk/System/iOSSupport/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		119176D82E2ADA7E00D871DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		119176DE2E2AF52800D871DE /* CarbClarity Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarbClarity Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119176EA2E2AF52900D871DE /* CarbClarity Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarbClarity Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1191772A2E2AF77000D871DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/WatchOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1192CE702C12D6F300248D94 /* CarbClarity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbClarity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1192CE822C12D6F400248D94 /* CarbClarityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbClarityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1192CE8C2C12D6F400248D94 /* CarbClarityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbClarityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1192CEA72C14A76800248D94 /* CarbClarityWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CarbClarityWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1192CEA92C14A76800248D94 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1192CEAB2C14A76800248D94 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1193EEF72E2A167D00FEFCD7 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		11B4B0492E2682AE002FCA9F /* CarbClarityUITestRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbClarityUITestRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		118082E52E2C3CE800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Base/CarbClarityUIRunnerApp.swift,
+				Mocks/USDAAPIMock.swift,
+			);
+			target = 1192CE8B2C12D6F400248D94 /* CarbClarityUITests */;
+		};
+		118082E62E2C3CE800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Base/CarbClarityTestingSetup.swift,
+				Base/CarbClarityUIRunnerApp.swift,
+				Mocks/USDAAPIMock.swift,
+			);
+			target = 11B4B02A2E2682AE002FCA9F /* CarbClarityUITestRunner */;
+		};
+		118082F42E2C3CF100C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 119176DD2E2AF52800D871DE /* CarbClarity Watch App */;
+		};
+		118083082E2C3CFF00C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1192CEA62C14A76800248D94 /* CarbClarityWidgetExtension */;
+		};
+		118083782E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Helper/MockDataGenerator.swift,
+				Info.plist,
+			);
+			target = 1192CE6F2C12D6F200248D94 /* CarbClarity */;
+		};
+		118083792E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/CarbEntry.swift,
+			);
+			target = 1192CE8B2C12D6F400248D94 /* CarbClarityUITests */;
+		};
+		1180837A2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Double-Extensions.swift",
+				Helper/AppSettings.swift,
+				Models/CarbEntry.swift,
+				Models/CarbEntryByDay.swift,
+			);
+			target = 1192CEA62C14A76800248D94 /* CarbClarityWidgetExtension */;
+		};
+		1180837B2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CarbClarityApp.swift,
+				Helper/MockDataGenerator.swift,
+				Info.plist,
+			);
+			target = 11B4B02A2E2682AE002FCA9F /* CarbClarityUITestRunner */;
+		};
+		1180837C2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Double-Extensions.swift",
+				Helper/AppSettings.swift,
+				Helper/WatchConnectivityManager.swift,
+				Helper/WidgetUpdateManager.swift,
+				Models/CarbEntry.swift,
+			);
+			target = 119176DD2E2AF52800D871DE /* CarbClarity Watch App */;
+		};
+		1180837D2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Double-Extensions.swift",
+			);
+			target = 119176E92E2AF52900D871DE /* CarbClarity Watch AppTests */;
+		};
+		118083A32E2C42E800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CarbClarityWidget.swift,
+				CarbClarityWidgetBundle.swift,
+				CarbClarityWidgetViewModel.swift,
+			);
+			target = 1180838C2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension */;
+		};
+		118083A42E2C42E800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Double-Extensions.swift",
+				Helper/AppSettings.swift,
+				Models/CarbEntry.swift,
+			);
+			target = 1180838C2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		118082C52E2C3CC300C36B1D /* CarbClarityTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CarbClarityTests; sourceTree = "<group>"; };
+		118082DA2E2C3CE800C36B1D /* CarbClarityUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (118082E52E2C3CE800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 118082E62E2C3CE800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CarbClarityUITests; sourceTree = "<group>"; };
+		118082ED2E2C3CF100C36B1D /* CarbClarity Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (118082F42E2C3CF100C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "CarbClarity Watch App"; sourceTree = "<group>"; };
+		118082F62E2C3CF400C36B1D /* CarbClarity Watch AppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "CarbClarity Watch AppTests"; sourceTree = "<group>"; };
+		118083022E2C3CFF00C36B1D /* CarbClarityWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (118083082E2C3CFF00C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 118083A32E2C42E800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CarbClarityWidget; sourceTree = "<group>"; };
+		1180832F2E2C3D0600C36B1D /* CarbClarity */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (118083782E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 1180837C2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 1180837A2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 118083A42E2C42E800C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 118083792E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 1180837B2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 1180837D2E2C3D0600C36B1D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CarbClarity; sourceTree = "<group>"; };
+		118083852E2C3D1000C36B1D /* Configuration */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Configuration; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1180838A2E2C42B400C36B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1180838F2E2C42B400C36B1D /* SwiftUI.framework in Frameworks */,
+				1180838E2E2C42B400C36B1D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119176DB2E2AF52800D871DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118083AF2E2D160E00C36B1D /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119176E72E2AF52900D871DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1191772B2E2AF77000D871DE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE6D2C12D6F200248D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118083AD2E2D160800C36B1D /* WatchConnectivity.framework in Frameworks */,
+				1193EEF82E2A167D00FEFCD7 /* AppIntents.framework in Frameworks */,
+				1161ED7C2E28D9EC00795EDE /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE7F2C12D6F400248D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE892C12D6F400248D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CEA42C14A76800248D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1192CEAC2C14A76800248D94 /* SwiftUI.framework in Frameworks */,
+				1192CEAA2C14A76800248D94 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B4B0402E2682AE002FCA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1193EEF92E2A168200FEFCD7 /* AppIntents.framework in Frameworks */,
+				1161ED7D2E28D9FC00795EDE /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1192CE672C12D6F200248D94 = {
+			isa = PBXGroup;
+			children = (
+				118083852E2C3D1000C36B1D /* Configuration */,
+				1180832F2E2C3D0600C36B1D /* CarbClarity */,
+				118082C52E2C3CC300C36B1D /* CarbClarityTests */,
+				118082DA2E2C3CE800C36B1D /* CarbClarityUITests */,
+				118082ED2E2C3CF100C36B1D /* CarbClarity Watch App */,
+				118082F62E2C3CF400C36B1D /* CarbClarity Watch AppTests */,
+				118083022E2C3CFF00C36B1D /* CarbClarityWidget */,
+				1192CEA82C14A76800248D94 /* Frameworks */,
+				1192CE712C12D6F300248D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1192CE712C12D6F300248D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1192CE702C12D6F300248D94 /* CarbClarity.app */,
+				1192CE822C12D6F400248D94 /* CarbClarityTests.xctest */,
+				1192CE8C2C12D6F400248D94 /* CarbClarityUITests.xctest */,
+				1192CEA72C14A76800248D94 /* CarbClarityWidgetExtension.appex */,
+				11B4B0492E2682AE002FCA9F /* CarbClarityUITestRunner.app */,
+				119176DE2E2AF52800D871DE /* CarbClarity Watch App.app */,
+				119176EA2E2AF52900D871DE /* CarbClarity Watch AppTests.xctest */,
+				1180838D2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1192CEA82C14A76800248D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118083AC2E2D160800C36B1D /* WatchConnectivity.framework */,
+				118083AE2E2D160E00C36B1D /* WatchConnectivity.framework */,
+				118083B02E2D173C00C36B1D /* WatchConnectivity.framework */,
+				119176D82E2ADA7E00D871DE /* XCTest.framework */,
+				1191772A2E2AF77000D871DE /* XCTest.framework */,
+				1193EEF72E2A167D00FEFCD7 /* AppIntents.framework */,
+				1161ED7B2E28D9EC00795EDE /* Charts.framework */,
+				1192CEA92C14A76800248D94 /* WidgetKit.framework */,
+				1192CEAB2C14A76800248D94 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1180838C2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118083992E2C42B500C36B1D /* Build configuration list for PBXNativeTarget "CarbClarityWatchWidgetExtension" */;
+			buildPhases = (
+				118083892E2C42B400C36B1D /* Sources */,
+				1180838A2E2C42B400C36B1D /* Frameworks */,
+				1180838B2E2C42B400C36B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbClarityWatchWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = CarbClarityWatchWidgetExtension;
+			productReference = 1180838D2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		119176DD2E2AF52800D871DE /* CarbClarity Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119176FF2E2AF52900D871DE /* Build configuration list for PBXNativeTarget "CarbClarity Watch App" */;
+			buildPhases = (
+				119176DA2E2AF52800D871DE /* Sources */,
+				119176DB2E2AF52800D871DE /* Frameworks */,
+				119176DC2E2AF52800D871DE /* Resources */,
+				1180824D2E2C3BF900C36B1D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118083972E2C42B500C36B1D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				118082ED2E2C3CF100C36B1D /* CarbClarity Watch App */,
+			);
+			name = "CarbClarity Watch App";
+			packageProductDependencies = (
+			);
+			productName = "CarbClarityWatch Watch App";
+			productReference = 119176DE2E2AF52800D871DE /* CarbClarity Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		119176E92E2AF52900D871DE /* CarbClarity Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119177032E2AF52900D871DE /* Build configuration list for PBXNativeTarget "CarbClarity Watch AppTests" */;
+			buildPhases = (
+				119176E62E2AF52900D871DE /* Sources */,
+				119176E72E2AF52900D871DE /* Frameworks */,
+				119176E82E2AF52900D871DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				119176EC2E2AF52900D871DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				118082F62E2C3CF400C36B1D /* CarbClarity Watch AppTests */,
+			);
+			name = "CarbClarity Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "CarbClarityWatch Watch AppTests";
+			productReference = 119176EA2E2AF52900D871DE /* CarbClarity Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1192CE6F2C12D6F200248D94 /* CarbClarity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1192CE962C12D6F400248D94 /* Build configuration list for PBXNativeTarget "CarbClarity" */;
+			buildPhases = (
+				1192CE6C2C12D6F200248D94 /* Sources */,
+				1192CE6D2C12D6F200248D94 /* Frameworks */,
+				1192CE6E2C12D6F200248D94 /* Resources */,
+				1192CEBB2C14A76900248D94 /* Embed Foundation Extensions */,
+				119177022E2AF52900D871DE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1192CEB62C14A76900248D94 /* PBXTargetDependency */,
+				119176FD2E2AF52900D871DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1180832F2E2C3D0600C36B1D /* CarbClarity */,
+			);
+			name = CarbClarity;
+			productName = CarbClarity;
+			productReference = 1192CE702C12D6F300248D94 /* CarbClarity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1192CE812C12D6F400248D94 /* CarbClarityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1192CE992C12D6F400248D94 /* Build configuration list for PBXNativeTarget "CarbClarityTests" */;
+			buildPhases = (
+				1192CE7E2C12D6F400248D94 /* Sources */,
+				1192CE7F2C12D6F400248D94 /* Frameworks */,
+				1192CE802C12D6F400248D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1192CE842C12D6F400248D94 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				118082C52E2C3CC300C36B1D /* CarbClarityTests */,
+			);
+			name = CarbClarityTests;
+			productName = CarbClarityTests;
+			productReference = 1192CE822C12D6F400248D94 /* CarbClarityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1192CE8B2C12D6F400248D94 /* CarbClarityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1192CE9C2C12D6F400248D94 /* Build configuration list for PBXNativeTarget "CarbClarityUITests" */;
+			buildPhases = (
+				1192CE882C12D6F400248D94 /* Sources */,
+				1192CE892C12D6F400248D94 /* Frameworks */,
+				1192CE8A2C12D6F400248D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B4B0502E268D35002FCA9F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				118082DA2E2C3CE800C36B1D /* CarbClarityUITests */,
+			);
+			name = CarbClarityUITests;
+			productName = CarbClarityUITests;
+			productReference = 1192CE8C2C12D6F400248D94 /* CarbClarityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1192CEA62C14A76800248D94 /* CarbClarityWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1192CEB82C14A76900248D94 /* Build configuration list for PBXNativeTarget "CarbClarityWidgetExtension" */;
+			buildPhases = (
+				1192CEA32C14A76800248D94 /* Sources */,
+				1192CEA42C14A76800248D94 /* Frameworks */,
+				1192CEA52C14A76800248D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				118083022E2C3CFF00C36B1D /* CarbClarityWidget */,
+			);
+			name = CarbClarityWidgetExtension;
+			productName = CarbClarityWidgetExtension;
+			productReference = 1192CEA72C14A76800248D94 /* CarbClarityWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		11B4B02A2E2682AE002FCA9F /* CarbClarityUITestRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B4B0462E2682AE002FCA9F /* Build configuration list for PBXNativeTarget "CarbClarityUITestRunner" */;
+			buildPhases = (
+				11B4B02D2E2682AE002FCA9F /* Sources */,
+				11B4B0402E2682AE002FCA9F /* Frameworks */,
+				11B4B0412E2682AE002FCA9F /* Resources */,
+				11B4B0442E2682AE002FCA9F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B4B02B2E2682AE002FCA9F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1180832F2E2C3D0600C36B1D /* CarbClarity */,
+			);
+			name = CarbClarityUITestRunner;
+			productName = CarbClarity;
+			productReference = 11B4B0492E2682AE002FCA9F /* CarbClarityUITestRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1192CE682C12D6F200248D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					1180838C2E2C42B400C36B1D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					119176DD2E2AF52800D871DE = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					119176E92E2AF52900D871DE = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 119176DD2E2AF52800D871DE;
+					};
+					1192CE6F2C12D6F200248D94 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1192CE812C12D6F400248D94 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1630;
+						TestTargetID = 1192CE6F2C12D6F200248D94;
+					};
+					1192CE8B2C12D6F400248D94 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 11B4B02A2E2682AE002FCA9F;
+					};
+					1192CEA62C14A76800248D94 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1192CE6B2C12D6F200248D94 /* Build configuration list for PBXProject "CarbClarity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1192CE672C12D6F200248D94;
+			productRefGroup = 1192CE712C12D6F300248D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1192CE6F2C12D6F200248D94 /* CarbClarity */,
+				119176DD2E2AF52800D871DE /* CarbClarity Watch App */,
+				1192CEA62C14A76800248D94 /* CarbClarityWidgetExtension */,
+				1180838C2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension */,
+				1192CE812C12D6F400248D94 /* CarbClarityTests */,
+				1192CE8B2C12D6F400248D94 /* CarbClarityUITests */,
+				11B4B02A2E2682AE002FCA9F /* CarbClarityUITestRunner */,
+				119176E92E2AF52900D871DE /* CarbClarity Watch AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1180838B2E2C42B400C36B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119176DC2E2AF52800D871DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119176E82E2AF52900D871DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE6E2C12D6F200248D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE802C12D6F400248D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE8A2C12D6F400248D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CEA52C14A76800248D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B4B0412E2682AE002FCA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118083892E2C42B400C36B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119176DA2E2AF52800D871DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119176E62E2AF52900D871DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE6C2C12D6F200248D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE7E2C12D6F400248D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CE882C12D6F400248D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1192CEA32C14A76800248D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B4B02D2E2682AE002FCA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118083972E2C42B500C36B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1180838C2E2C42B400C36B1D /* CarbClarityWatchWidgetExtension */;
+			targetProxy = 118083962E2C42B500C36B1D /* PBXContainerItemProxy */;
+		};
+		119176EC2E2AF52900D871DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119176DD2E2AF52800D871DE /* CarbClarity Watch App */;
+			targetProxy = 119176EB2E2AF52900D871DE /* PBXContainerItemProxy */;
+		};
+		119176FD2E2AF52900D871DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119176DD2E2AF52800D871DE /* CarbClarity Watch App */;
+			targetProxy = 119176FC2E2AF52900D871DE /* PBXContainerItemProxy */;
+		};
+		1192CE842C12D6F400248D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1192CE6F2C12D6F200248D94 /* CarbClarity */;
+			targetProxy = 1192CE832C12D6F400248D94 /* PBXContainerItemProxy */;
+		};
+		1192CEB62C14A76900248D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1192CEA62C14A76800248D94 /* CarbClarityWidgetExtension */;
+			targetProxy = 1192CEB52C14A76900248D94 /* PBXContainerItemProxy */;
+		};
+		11B4B02B2E2682AE002FCA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1192CEA62C14A76800248D94 /* CarbClarityWidgetExtension */;
+			targetProxy = 11B4B02C2E2682AE002FCA9F /* PBXContainerItemProxy */;
+		};
+		11B4B0502E268D35002FCA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B4B02A2E2682AE002FCA9F /* CarbClarityUITestRunner */;
+			targetProxy = 11B4B04F2E268D35002FCA9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1180839A2E2C42B500C36B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarityWatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CarbClarityWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker.watchkitapp.WatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		1180839B2E2C42B500C36B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarityWatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CarbClarityWatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker.watchkitapp.WatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		119177002E2AF52900D871DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Configuration/CarbClarity Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "CarbClarity Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Carb Clarity";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.fouquet.CarbTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TEST_HOST[sdk=*]" = "";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		119177012E2AF52900D871DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Configuration/CarbClarity Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "CarbClarity Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Carb Clarity";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.fouquet.CarbTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		119177042E2AF52900D871DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V3X6G7UAZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fouquet.CarbClarityWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbClarity Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbClarity Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		119177052E2AF52900D871DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4V3X6G7UAZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.fouquet.CarbClarityWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbClarity Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbClarity Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		1192CE942C12D6F400248D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 118083852E2C3D1000C36B1D /* Configuration */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4V3X6G7UAZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1192CE952C12D6F400248D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 118083852E2C3D1000C36B1D /* Configuration */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4V3X6G7UAZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1192CE972C12D6F400248D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carb Clarity";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1192CE982C12D6F400248D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carb Clarity";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1192CE9A2C12D6F400248D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbClarityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbClarity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbClarity";
+			};
+			name = Debug;
+		};
+		1192CE9B2C12D6F400248D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbClarityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbClarity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbClarity";
+			};
+			name = Release;
+		};
+		1192CE9D2C12D6F400248D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(TESTING_FRAMEWORK_MODULE_ALIAS_FLAGS) -Xfrontend -disable-availability-checking";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbClarityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbClarityUITestRunner;
+			};
+			name = Debug;
+		};
+		1192CE9E2C12D6F400248D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(TESTING_FRAMEWORK_MODULE_ALIAS_FLAGS) -Xfrontend -disable-availability-checking";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbClarityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbClarityUITestRunner;
+			};
+			name = Release;
+		};
+		1192CEB92C14A76900248D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarityWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CarbClarityWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker.CarbTrackerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1192CEBA2C14A76900248D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarityWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarityWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CarbClarityWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker.CarbTrackerWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		11B4B0472E2682AE002FCA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarity.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carb Clarity";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.CarbTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		11B4B0482E2682AE002FCA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarbClarity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbClarity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Carb Clarity";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = me.fouquet.carbtracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118083992E2C42B500C36B1D /* Build configuration list for PBXNativeTarget "CarbClarityWatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1180839A2E2C42B500C36B1D /* Debug */,
+				1180839B2E2C42B500C36B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		119176FF2E2AF52900D871DE /* Build configuration list for PBXNativeTarget "CarbClarity Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119177002E2AF52900D871DE /* Debug */,
+				119177012E2AF52900D871DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		119177032E2AF52900D871DE /* Build configuration list for PBXNativeTarget "CarbClarity Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119177042E2AF52900D871DE /* Debug */,
+				119177052E2AF52900D871DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1192CE6B2C12D6F200248D94 /* Build configuration list for PBXProject "CarbClarity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1192CE942C12D6F400248D94 /* Debug */,
+				1192CE952C12D6F400248D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1192CE962C12D6F400248D94 /* Build configuration list for PBXNativeTarget "CarbClarity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1192CE972C12D6F400248D94 /* Debug */,
+				1192CE982C12D6F400248D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1192CE992C12D6F400248D94 /* Build configuration list for PBXNativeTarget "CarbClarityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1192CE9A2C12D6F400248D94 /* Debug */,
+				1192CE9B2C12D6F400248D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1192CE9C2C12D6F400248D94 /* Build configuration list for PBXNativeTarget "CarbClarityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1192CE9D2C12D6F400248D94 /* Debug */,
+				1192CE9E2C12D6F400248D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1192CEB82C14A76900248D94 /* Build configuration list for PBXNativeTarget "CarbClarityWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1192CEB92C14A76900248D94 /* Debug */,
+				1192CEBA2C14A76900248D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B4B0462E2682AE002FCA9F /* Build configuration list for PBXNativeTarget "CarbClarityUITestRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B4B0472E2682AE002FCA9F /* Debug */,
+				11B4B0482E2682AE002FCA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1192CE682C12D6F200248D94 /* Project object */;
+}

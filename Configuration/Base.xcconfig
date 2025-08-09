@@ -1,0 +1,19 @@
+// CarbClarity base configuration
+// Contains shared identifiers and configuration values
+
+// App Identifiers
+// If changing this, make sure to match the hard coded value in test_appGroupIdentifier_ReturnsExpectedValue of AppSettingsTests
+APP_GROUP_IDENTIFIER = group.me.fouquet.carbtracker
+
+ICLOUD_CONTAINER_IDENTIFIER = iCloud.me.fouquet.carbtracker
+
+// Team and Bundle Settings
+DEVELOPMENT_TEAM = $(inherited)
+PRODUCT_BUNDLE_IDENTIFIER = $(inherited)
+
+// Deployment Settings
+IPHONEOS_DEPLOYMENT_TARGET = 18.0
+WATCHOS_DEPLOYMENT_TARGET = 11.0
+
+// Code Signing
+CODE_SIGN_STYLE = Automatic

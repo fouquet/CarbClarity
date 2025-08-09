@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "9E37D735-D307-45B7-95D4-A2DB4CD7B4E4",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "buildConfiguration" : "Debug",
+    "environmentVariableEntries" : [
+
+    ],
+    "language" : "en",
+    "region" : "US",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:CarbClarity.xcodeproj",
+        "identifier" : "1192CE8B2C12D6F400248D94",
+        "name" : "CarbClarityUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

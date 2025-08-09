@@ -1,0 +1,15 @@
+// Release configuration
+#include "Base.xcconfig"
+
+// Build Settings
+GCC_OPTIMIZATION_LEVEL = s
+SWIFT_OPTIMIZATION_LEVEL = -O
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+ENABLE_TESTABILITY = NO
+
+// Push Notifications  
+APS_ENVIRONMENT = production
+
+// Swift Compilation
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = 
+GCC_PREPROCESSOR_DEFINITIONS = 
